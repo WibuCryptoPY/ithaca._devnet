@@ -20,7 +20,7 @@ function display_logo() {
     echo "     \/  \/   |_|_.__/ \__,_|\_____|_|   \__, | .__/ \__\___/ "
     echo "                                          __/ | |             "
     echo "                                         |___/|_|             "
-    echo -e "${WHITE}From: https://wibucrypto.pro/ | Find us on Telegram @wibuairdrop142${RESET}"
+    echo -e "\n\n${RED}FROM: HTTPS://WIBUCRYPTO.PRO/ | FIND US ON TELEGRAM @WIBUAIRDROP142${RESET}"
     echo -e "${RESET}"
 }
 
@@ -34,7 +34,6 @@ function update_system() {
 function install_dependencies() {
     echo -e "${CYAN}Installing dependencies...${RESET}"
     sudo apt-get install -y git clang
-    sudo apt-get install -y clang
 }
 
 # Function to set LIBCLANG_PATH
